@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#5D4CC6" />
+    <title>Dashboard Realtime</title>
+    <link rel="icon" href="imgs/Oval.png" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="page">
+      <!-- header -->
+      <header class="d-flex justify-content-between pb-3 mb-2">
+        <a href="index.html" class="left me-1 d-block text-dark text-decoration-none">
+          <div class="logo d-inline-block">
+            <span class="text-white">R.</span>
+          </div>
+          <span>Realtime</span>
+        </a>
+        <form class="center overflow-hidden hidden">
+          <input type="search" placeholder="search" />
+          <button type="submit">
+            <i class="fa-solid fa-search"></i>
+          </button>
+        </form>
+        <i class="fa-solid fa-search d-block d-sm-none"></i>
+        <div class="right d-flex align-items-center">
+          <div class="icons">
+            <i class="fa-solid fa-square mx-md-1"></i>
+            <i class="fa-solid fa-square-poll-vertical mx-1"></i>
+          </div>
+          <div class="user d-flex align-items-center ms-2 ms-md-4 position-relative">
+            <div class="overlay position-absolute w-100 h-100 opacity-0 top-0 start-0 d-none d-md-block"></div>
+            <img src="imgs/user.jpg" class="me-2" style="border-radius: 50%;"/>
+            <div class="title">
+              <p>Ibrahim Abd Elaty</p>
+              <p>Front-end Developer</p>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- main -->
+      <main class="mh-100 d-flex align-items-stretch justify-content-around">
+        <div class="left">
+          <div class="sections">
+            <div class="sec selected home">
+              <img src="imgs/house.png" class="me-2">
+              <img src="imgs/Home.png" class="d-none d-sm-inline-block">
+            </div>
+            <div class="sec" data-cont="Boards">
+              <img src="imgs/Group 7.png" alt="">
+            </div>
+            <div class="sec" data-cont="Listing">
+              <img src="imgs/Group 8.png" alt="">
+            </div>
+            <div class="sec" data-cont="Timeline">
+              <img src="imgs/Group 9.png" alt="">
+            </div>
+            <div class="sec" data-cont="Contact">
+              <img src="imgs/Group 10.png" alt="">
+            </div>
+          </div>
+          <div class="add rounded-pill">
+            <span class="d-none d-sm-inline-block">Add menu</span>
+            <i class="fa-solid fa-plus"></i>
+          </div>
+        </div>
+        <div class="center rounded-5 position-relative overflow-hidden">
+          <div class="content h-100 d-flex align-content-center flex-wrap position-relative">
+            <p>We’ve made an impact on</p>
+            <h1 class="w-100">A Billion <br>Lives.</h1>
+            <div class="w-100">
+              <p>
+                A UI UX company that is transforming and scaling businesses
+                successfully through its services
+              </p>
+            </div>
+            <span class="rounded-pill">Learn More</span>
+          </div>
+          <img src="imgs/Oval 2.png" class="position-absolute top-0 end-0" />
+          <img src="imgs/Bitmap.png" class="position-absolute" />
+        </div>
+        <div class="right">
+          <div class="add rounded-pill me-0">
+            <span>Team</span>
+            <i class="fa-solid fa-plus"></i>
+          </div>
+        </div>
+      </main>
+      <!-- popup -->
+      <div class="popup d-flex justify-content-center rounded-pill">
+        <img src="imgs/Shape.png " alt="" />
+        <img src="imgs/Group 14.png" alt="" />
+        <img src="imgs/Group 13.png" alt="" />
+        <img src="imgs/Group 12.png" alt="" />
+        <img src="imgs/close-24px (1).png" alt="" />
+      </div>
+    </div>
+    <!-- the javascript main file -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
